@@ -24,7 +24,7 @@ const tokenCache = {
 export default function App() {
 
   const [fontsLoaded] = useFonts({
-    'Raleway': require('./assets/Raleway/Raleway-VariableFont_wght.ttf')
+   // 'Raleway': require('./assets/Raleway/Raleway-VariableFont_wght.ttf')
   })
   return (<View style={styles.container}> 
         <NavigationContainer >
